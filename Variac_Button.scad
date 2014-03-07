@@ -1,3 +1,10 @@
+//Variac Button 3D model
+//(c) 2014 juca@members.fsf.org
+//
+//Licensed under the terms of the GNU General Public License version 3 or 
+//at your option, any later version, as published by the Free Software Foundation
+
+
 $fn=120;
 H=50;
 R=50;
@@ -46,3 +53,4 @@ union(){
 		translate([0,0,disc_h1-1])
 		cylinder(r2=r, r1=R+disc_r, h=disc_h2-disc_h1);
 }
+
